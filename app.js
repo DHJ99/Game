@@ -6,8 +6,10 @@ function Guess(){
 
     if(guessNum==randomNumber){
         console.log("Your won");
-    }else(){
-        
+    }else if (guessNum>randomNumber){
+        console.log("Your Guess Num is Larger");
+    }else if (guessNum<randomNumber){
+        console.log("Your Guess Num is Less");
     }
 
 }
