@@ -5,6 +5,8 @@ function Guess(){
     let guessNum= document.getElementById("inputNum").value;
 
     if(guessNum==randomNumber){
+        console.log("Your won");
+    }else(){
         
     }
 
